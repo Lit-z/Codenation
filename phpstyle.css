@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: rgba(247, 230, 247, 0.692);
+}
+body {
+    margin: 10px;
+}
+#form_block {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    flex-direction: column;
+}
+#php-form {
+    display: flex;
+    flex-direction: column;
+}
+#php-table {
+    border: solid black 2px;
+    width: 396px;
+}
+.phptr {
+    height: 50px;
+}
+.php-td {
+    border: solid black 2px;
+    width: 194px;
+}
+.php-label {
+    padding-left: 5px;
+}
+.php-input, .php-textarea {
+    height: 95%;
+    width: 95%;
+    resize: vertical;
+}
+.php-button {
+    width: 50%;
+    margin: 5px auto 5px auto;
+}
+.existing_comments {
+    width: 400px;
+    margin: 0px auto 0px auto;
+}
+.user {
+    width: fit-content;
+    border: solid black 2px;
+    padding: 0px 4px 0px 4px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+.user_comment {
+    width: 70%;
+    margin-left: 20%;
+    padding: 0px 5% 0px 5%;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+.php-ul {
+    display: flex;
+    height: 100vh;
+    width: 100wh;
+    justify-content:space-around;
+    align-items:center;
+}
+.php-li {
+    display: flex;
+    height:50px;
+    width:200px;
+    border: solid black 1px;
+    border-radius:20px;
+    background-color:rgb( 245, 179, 47);
+    color: rgb(9, 78, 155);
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+#banner1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banner2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.top {
+    display: flex;
+    justify-content: flex-end;
+}
+.top a {
+    color: darkred;
+    font-size: 20px;
+    text-decoration: none;
+}
+.top a:hover {
+    color: black;    
+}
+#partlist, #navbar {
+    background-color:#333333;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+#partlist a, #navbar a {
+    color: white;
+    background-color: #333333;
+    text-decoration: none;
+    font-family: serif;
+}
+#partlist a:hover, #navbar a:hover, #rdmstart a:hover, #blmstart a:hover, .rdm a:hover, .blm a:hover {
+    color: goldenrod;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.rdm, .blm {
+    display: flex;
+    width: 600px;
+}
+.rdm485, .rdm500, .rdm510, .rdm515, .rdm535, .blm485, .blm500, .blm510, .blm515, .blm535 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rdm a {
+    text-decoration: none;
+    color: red;
+}
+.blm a {
+    text-decoration: none;
+    color: black;
+}
+#part1, #part2, #part3, #part4, #part5, #part6 {
+    background-color: #333333;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+}
+#start {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#rdmstart a {
+    text-decoration: none;
+    color: red;
+}
+#blmstart a {
+    text-decoration: none;
+    color: black;
+}
+#rdmlink {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: red;
+}
+#blmlink {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+}
